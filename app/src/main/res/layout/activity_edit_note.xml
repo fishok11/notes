@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Редактирование заметки"
+        android:textSize="20sp"
+        android:layout_margin="16dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/note_title_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_text_view"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="@string/note_title"
+        android:inputType="textCapWords"
+        android:minHeight="48dp"
+        android:singleLine="true"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/note_content_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/note_title_edit_text"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:autofillHints=""
+        android:hint="@string/note_content"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@id/note_content_edit_text"
+        android:layout_marginTop="29dp"
+        android:text="Сохранить" />
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@id/note_content_edit_text"
+        android:layout_marginTop="80dp"
+        android:text="Отмена" />
+</RelativeLayout>

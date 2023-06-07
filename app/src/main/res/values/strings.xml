@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">main</string>
+    <string name="add_note" />
+    <string name="cancel">Сancel</string>
+    <string name="save">Save</string>
+    <string name="note_content">Note Content</string>
+    <string name="note_title">Note Title</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="Отмена" />
+</resources>
